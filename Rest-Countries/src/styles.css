@@ -1,0 +1,7 @@
+body{
+	background-image: url('assets/img/map.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: auto;    
+    width: auto;
+    height: auto;
+}
