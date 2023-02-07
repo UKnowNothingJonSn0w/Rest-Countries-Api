@@ -1,0 +1,15 @@
+table{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+table tbody tr{
+    border-width: 2px;
+    border-color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #575757;
+}

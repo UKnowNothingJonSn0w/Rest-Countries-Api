@@ -1,7 +1,69 @@
 body{
 	background-image: url('assets/img/map.jpg');
-    background-repeat: no-repeat, repeat;
-    background-size: auto;    
-    width: auto;
-    height: auto;
+    background-size:     auto;                    
+    background-repeat:   no-repeat;
+    overflow: hidden;
 }
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+}
+.countries ul li{
+    list-style-type:none;
+    text-shadow: -1px 4px 3px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+.countries ul{
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+height: 75vh;
+margin-top: 50px;
+overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #666666;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  .countries ul li a
+    {
+        text-decoration: none;
+        color: #fff;
+    }

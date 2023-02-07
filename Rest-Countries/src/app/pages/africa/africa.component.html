@@ -1,8 +1,13 @@
 <h1>Africa</h1>
+
 <div class="countries">
     <ul>
       <li *ngFor="let region of regions">
+        <a routerLink="/country-details/{{ region.name }}">
             {{ region.name }}
+            <br>
+            <img src="{{ region.flags.png }}" width="100" />
+            </a>
       </li>
     </ul>
 </div>
