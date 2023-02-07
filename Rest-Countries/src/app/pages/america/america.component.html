@@ -2,7 +2,7 @@
 <div class="countries">
     <ul>
       <li *ngFor="let region of regions">
-        <a routerLink="/country-details/{{ region.name }}">
+        <a routerLink="/country-details/{{ region.name.common }}">
             {{ region.name.common }}
             <br>
             <img src="{{ region.flags.png }}" width="100" />
