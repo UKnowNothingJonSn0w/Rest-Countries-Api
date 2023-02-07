@@ -1,0 +1,27 @@
+<h1>Country destails</h1>
+<table class="table">
+    <tbody *ngFor="let country of countries">
+      <tr>
+        <td>
+          <img src="{{ country.flags.png }}" width="100" />
+        </td>
+        <td>
+          {{ country.name.common }}
+        </td>
+      </tr>
+      <tr>
+        <td>Capital</td>
+        <td>{{ country.capital }}</td>
+      </tr>
+      <tr>
+        <td>Continent</td>
+        <td>{{ country.continents }}</td>
+      </tr>
+      <tr>
+        <td>Population</td>
+        <td>{{ country.population }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
